@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body {
+    background: #f4f6f8;
+    color: #333;
+}
+
+header {
+    background: #0a1a2f;
+    padding: 15px 50px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1 {
+    color: #00d4ff;
+}
+
+nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #00d4ff;
+}
+
+.hero {
+    padding: 80px;
+    text-align: center;
+    background: linear-gradient(to right, #0a1a2f, #003566);
+    color: white;
+}
+
+section {
+    padding: 60px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+input, textarea, select, button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background: #003566;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #00d4ff;
+    color: black;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background: #003566;
+    color: white;
+}
+
+footer {
+    background: #0a1a2f;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
